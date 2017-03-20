@@ -20,6 +20,11 @@ namespace Quiron.LojaVirtual.Web.Controllers
             var produtos = _repositorio.Produtos.Take(3);
             return View(produtos);
         }
+
+        public ActionResult NovosProdutos()
+        {
+            return View();
+        }
     }
 }
 

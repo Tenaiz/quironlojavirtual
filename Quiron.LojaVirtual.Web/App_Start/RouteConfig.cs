@@ -16,7 +16,9 @@ namespace Quiron.LojaVirtual.Web
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                //defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                // Foi necessário alterar a rota de HOME para PRODUTO para que a página seja encontrada independente de qual tela do projeto eu execute o debug.
+                defaults: new { controller = "Produtos", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
