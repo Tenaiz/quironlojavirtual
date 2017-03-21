@@ -24,6 +24,10 @@ namespace Quiron.LojaVirtual.Web.Models
             } 
         }
     }
+
+
+
+
 }
 
 
