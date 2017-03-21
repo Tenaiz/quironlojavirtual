@@ -22,7 +22,8 @@ namespace Quiron.LojaVirtual.Web.Models
                 // O Ceiling arredonda para cima caso tenha alguma divisão que não seja exata
                 return (int)Math.Ceiling((decimal)ItensTotal / ItensPorPagina);
             } 
-            set; 
         }
     }
 }
+
+
