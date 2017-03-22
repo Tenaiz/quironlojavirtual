@@ -18,7 +18,7 @@ namespace Quiron.LojaVirtual.Web.Models
         { 
             get
             {
-                // Divide o total de itens por itens por página
+                // Divide o total de itens por itens por página 
                 // O Ceiling arredonda para cima caso tenha alguma divisão que não seja exata
                 return (int)Math.Ceiling((decimal)ItensTotal / ItensPorPagina);
             } 
